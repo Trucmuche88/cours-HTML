@@ -175,7 +175,6 @@ p {
 
 .finishProj {
     text-align: center;
-    height: 200px;
 }
 
 .title_projects {
@@ -191,6 +190,7 @@ p {
 
 .text_projects {
     color: #222222;
+    margin-bottom: 64px;
 }
 
 .hire {
