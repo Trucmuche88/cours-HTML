@@ -18,7 +18,6 @@ ul {
 
 h3 {
     font-size: 36px;
-    text-align: center;
 
 }
 
@@ -193,30 +192,101 @@ p {
     margin-bottom: 64px;
 }
 
+.project_img {
+    width: 100%;
+}
+
+.smrt-home {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    color: #FFFFFF;
+    
+}
+
+.sparklite-app {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    color: #FFFFFF;
+}
+
+.car-app {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    color: #FFFFFF;
+}
+
+.project_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project_item_margin {
+    margin-right: 32px;
+}
+
+.footer {
+    background-color: #316099; 
+    color: #FFFFFF;
+    margin-top: 112px;
+    position: relative;
+}
 .hire {
     width: 495px;
+    display: flex;
+    flex-direction: column;
     text-align: left;
     color: #FFFFFF;
 }
 
 .title_hire {
-    padding: 50px 0px;
-}
-.textFooter {
-    padding: 0px 0px 50px;
-}
-.footer {
-    background-color: #316099; 
-    color: #FFFFFF;
+    margin-top: 91px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF
 }
 
 .textFooter {
+    margin: 32px 0px 93px;
+    opacity: 0.6;
+}
+.textFooter {
     color:  #ffffff;
+}
+
+.button_footer {
+    height: 56px;
+    padding: 15px 80px;
+    color: #FFFFFF;
+    background: #5A98D0;
+    position: absolute;
+    top: 165px;
+    right: 114px;
 }
 
 .legalRights {
     color: #ffffff;
     padding: 0px 0px 50px;
+    opacity: 0.6;
 }
 
 .container_info {
