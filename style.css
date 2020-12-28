@@ -69,6 +69,7 @@ p {
     width: 425px;
     height: 82px;
     padding-top: 32px;
+    opacity: 0.6;
     
 }
 
@@ -92,6 +93,7 @@ p {
     line-height: 46px;
     letter-spacing: 0.05em;
     margin: 64px 0px;
+    text-align: center;
 }
 
 .title_ad {
@@ -184,12 +186,14 @@ p {
     letter-spacing: 0.05em;
     color: #000000;
     letter-spacing: 0.05em;
-    
 }
 
 .text_projects {
-    color: #222222;
+    
+    text-align: center;
     margin-bottom: 64px;
+    color: #222222;
+    
 }
 
 .project_img {
@@ -249,8 +253,8 @@ p {
     margin-top: 112px;
     position: relative;
 }
-.hire {
-    width: 495px;
+.top_footer {
+   
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -267,18 +271,23 @@ p {
 
 .textFooter {
     margin: 32px 0px 93px;
-    opacity: 0.6;
+    opacity: 0.6; 
+    width: 495px;
 }
 .textFooter {
     color:  #ffffff;
 }
 
-.button_footer {
-    height: 56px;
+.btn_footer {
+    text-decoration: none;
     padding: 15px 80px;
     color: #FFFFFF;
     background: #5A98D0;
     position: absolute;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
     top: 165px;
     right: 114px;
 }
@@ -287,13 +296,15 @@ p {
     color: #ffffff;
     padding: 0px 0px 50px;
     opacity: 0.6;
+    margin-bottom: 64px;
 }
 
 .container_info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 64px 0px;
+    color: #FFFFFF;
 }
 
 hr {
