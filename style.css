@@ -268,9 +268,11 @@ p {
 }
 
 .title_hire {
+    width: 340px; 
     margin-top: 91px;
     font-size: 36px;
     line-height: 46px;
+    font-weight: 400;
     letter-spacing: 0.05em;
     color: #FFFFFF
 }
@@ -332,8 +334,7 @@ p {
 .legalRights {
     color: #ffffff;
     padding: 0px 0px 50px;
-    opacity: 0.6;
-    margin-bottom: 64px;
+    opacity: 0.4;
 }
 
 .container_info {
