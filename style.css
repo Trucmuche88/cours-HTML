@@ -111,6 +111,7 @@ p {
 }
 
 .ad_link {
+    position: relative;
     width: 78px;
     line-height: 27px;
     font-size: 14px;
@@ -119,6 +120,12 @@ p {
     color: #5A98D0;
     text-decoration: none;
     padding-left: 32px;
+}
+
+.ad_link::after {
+    content: url(img/arrow_ad.svg);
+    position: absolute;
+    padding: 4px 23px;
 }
 
 .container_offers {
