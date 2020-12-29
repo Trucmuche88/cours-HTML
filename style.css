@@ -310,6 +310,8 @@ p {
 
 .address {
     width: 316px;
+    position: relative;
+    padding-left: 38px;
 }
 
 .tel {
@@ -324,6 +326,8 @@ p {
     content: "A. ";
     word-spacing: 19px;
     font-weight: 500;
+    position: absolute;
+    left: 0px;
 }
 
 .tel::before {
