@@ -30,7 +30,6 @@ ul {
 }
 
 .mainTitle {
-    width: 343px;
     height: 76px;
     left: 15px;
     top: 92px;
@@ -58,7 +57,6 @@ ul {
 }
 
 .text_automation {
-    width: 343px;
     height: 96px;
     left: 15px;
     font-size: 16px;
@@ -71,10 +69,6 @@ ul {
 }
 
 .title_offers {
-    width: 341px;
-    height: 55px;
-    left: 17px;
-    top: 424px;
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
@@ -341,7 +335,70 @@ hr {
     opacity: 0.4;
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.automation {
+    background-image: url(img/top_img.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 20em;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 120px;
+}
+
+.container_navbar {
+    padding: 55px 32px 0px;
+}
+
+.mainTitle {
+    height: 148px;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: left;
+    padding: 120px 32px 0px;
+    width: 70%;
+}
+
+.text_automation {
+    height: 82px;
+    line-height: 26px;
+    text-align: left;
+    padding: 32px 32px 0px;
+    width: 55%;
+}
+
+.button_top {
+    padding: 15px 50px;
+    align-self: flex-start;
+    margin: 72px 32px 41px;
+}
+
+.title_offers {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 64px 32px;
+    height: 90px;
+    letter-spacing: 00.05em;
+}
+
+.title_projects {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 127px 32px 32px;
+    letter-spacing: 0.05em;
+}
+
+.text_projects {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 124px 64px;
+    height: 78px;
+    width: 70%;
+}
+
+
+@media (min-width: 1024px) {
 
     * {
         margin: 0;
@@ -653,15 +710,7 @@ hr {
         position: relative;
         padding-left: 38px;
     }
-    
-    .tel {
-    
-    }
-    
-    .mail {
-        
-    }
-    
+
     .address::before {
         content: "A. ";
         word-spacing: 19px;
