@@ -344,7 +344,7 @@ hr {
     background-size: 20em;
     margin-right: 30px;
     padding-bottom: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .container_navbar {
@@ -372,6 +372,7 @@ hr {
     padding: 15px 50px;
     align-self: flex-start;
     margin: 72px 32px 41px;
+    font-size: 16px;
 }
 
 .title_offers {
@@ -396,6 +397,106 @@ hr {
     height: 78px;
     width: 70%;
 }
+
+.smrt-home {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 285px;
+    top: 2915px;
+}
+
+.sparklite-app {
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+    left: 22px;
+    top: 3217px;
+    letter-spacing: 0.05em;
+}
+
+.car-app {
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+    left: 427px;
+    top: 3217px;
+}
+
+.project_parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.project_item_margin {
+    margin-right: 32px;
+}
+
+.top_footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.hire {
+    width: 60%;
+}
+
+.title_hire {
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    padding: 47px 0px 0px 124px;
+}
+
+.textFooter {
+    text-align: left;
+    padding: 32px 0px 64px 124px;
+}
+
+.button_footer {
+    align-self: center;
+    margin: 40px 51px;
+}
+
+.container_info {
+    padding: 64px 124px 0px;
+}
+
+.address {
+    padding: 0px 0px 25px 63px;
+}
+
+.address::before {
+    content: "A. ";
+    padding-left: 0px;
+}
+
+.tel {
+    padding-bottom: 25px;
+}
+
+.tel::before {
+    content: "T. ";
+    word-spacing: 46px;
+    padding-left: 0px;
+}
+
+.mail::before {
+    content: "E. ";
+    word-spacing: 47px;
+    padding-left: 0px;
+}
+
+.legalRights {
+    text-align: left;
+    padding: 64px 125px;
+}
+
 
 
 @media (min-width: 1024px) {
