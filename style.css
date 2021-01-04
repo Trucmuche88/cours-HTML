@@ -335,505 +335,514 @@ hr {
     opacity: 0.4;
 }
 
+
 @media (min-width: 768px) and (max-width: 1023px) {
 
-.automation {
-    background-image: url(img/top_img.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 20em;
-    margin-right: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 80px;
-}
-
-.container_navbar {
-    padding: 55px 32px 0px;
-}
-
-.mainTitle {
-    height: 148px;
-    font-size: 64px;
-    line-height: 74px;
-    text-align: left;
-    padding: 120px 32px 0px;
-    width: 70%;
-}
-
-.text_automation {
-    height: 82px;
-    line-height: 26px;
-    text-align: left;
-    padding: 32px 32px 0px;
-    width: 55%;
-}
-
-.button_top {
-    padding: 15px 50px;
-    align-self: flex-start;
-    margin: 72px 32px 41px;
-    font-size: 16px;
-}
-
-.title_offers {
-    font-size: 36px;
-    line-height: 46px;
-    margin: 64px 32px;
-    height: 90px;
-    letter-spacing: 00.05em;
-}
-
-.title_projects {
-    font-size: 36px;
-    line-height: 46px;
-    margin: 127px 32px 32px;
-    letter-spacing: 0.05em;
-}
-
-.text_projects {
-    font-size: 16px;
-    line-height: 26px;
-    margin: 0px 124px 64px;
-    height: 78px;
-    width: 70%;
-}
-
-.smrt-home {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    position: absolute;
-    left: 285px;
-    top: 2915px;
-}
-
-.sparklite-app {
-    font-size: 28px;
-    line-height: 46px;
-    color: #FFFFFF;
-    left: 22px;
-    top: 3217px;
-    letter-spacing: 0.05em;
-}
-
-.car-app {
-    font-size: 28px;
-    line-height: 46px;
-    color: #FFFFFF;
-    left: 427px;
-    top: 3217px;
-}
-
-.project_parent {
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-}
-
-.project_item_margin {
-    margin-right: 32px;
-}
-
-.top_footer {
-    display: flex;
-    flex-direction: row;
-}
-
-.hire {
-    width: 60%;
-}
-
-.title_hire {
-    font-size: 36px;
-    line-height: 46px;
-    text-align: left;
-    padding: 47px 0px 0px 124px;
-}
-
-.textFooter {
-    text-align: left;
-    padding: 32px 0px 64px 124px;
-}
-
-.button_footer {
-    align-self: center;
-    margin: 40px 51px;
-}
-
-.container_info {
-    padding: 64px 124px 0px;
-}
-
-.address {
-    padding: 0px 0px 25px 63px;
-}
-
-.address::before {
-    content: "A. ";
-    padding-left: 0px;
-}
-
-.tel {
-    padding-bottom: 25px;
-}
-
-.tel::before {
-    content: "T. ";
-    word-spacing: 46px;
-    padding-left: 0px;
-}
-
-.mail::before {
-    content: "E. ";
-    word-spacing: 47px;
-    padding-left: 0px;
-}
-
-.legalRights {
-    text-align: left;
-    padding: 64px 125px;
-}
-
-@media (min-width: 1024px) and (max-width: 2560px ) {
-
-    .container {
-            max-width: 1140px;
-            margin: 0 auto;
-    
-    }
-    
-    h3 {
-        font-size: 36px;
-    
-    }
-    
-    h4 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    
-    p {
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 0.05em;
-    }
-    
-    .top_page {
-        display: flex;
-        flex-direction: column; 
-        height: 100%;
-        background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    }
-    
-    .container_navbar {
-        display: flex;
-        justify-content: space-between;
-        padding: 42px 113px 0px;
-    }
-    
     .automation {
-        display: flex;
-        flex-direction: column;
-        background-image: url(img/top_img.png);
-        background-position: right;
-        background-repeat: no-repeat;
-        flex-grow: 1;
-        height: 100%;   
-    }
-    
-    .mainTitle {
-        width: 50%;
-        font-weight: 300;
-        font-size: 64px;
-        line-height: 74px;
-        color: #1F3F68;
-        letter-spacing: 0.04em;
-        padding: 115px 114px 0px;
-        text-align: left;
-    }
-    
-    .text_automation {
-        width: 40%;
-        padding: 32px 114px 71px;
-        opacity: 0.6;
-        text-align: left;
-    }
-    
-    .button_top {
-        background: #5A98D0;
-        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-        border-radius: 10px;
-        text-decoration: none;
-        padding: 15px 50px;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        display: inline-block;
-        margin: 0px 114px 190px;
-    }
-    
-    .title_offers {
-        font-weight: 300;
-        font-size: 36px;
-        line-height: 46px;
-        letter-spacing: 0.05em;
-        margin: 64px 0px;
-        text-align: center;
-    }
-    
-    .title_ad {
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 0.05em;
-        font-weight: 400;
-        padding: 50px 32px 0px;
-    }
-    
-    .text_ad {
-        padding: 15px 32px 28px;
-        opacity: 0.6;
-    
-    }
-    
-    .ad_link {
-        position: relative;
-        line-height: 27px;
-        font-size: 14px;
-        line-height: 30px;
-        letter-spacing: 0.05em;
-        color: #5A98D0;
-        text-decoration: none;
-        padding-left: 32px;
-    }
-    
-    .ad_link::after {
-        content: url(img/arrow_ad.svg);
-        position: absolute;
-        padding: 4px 23px;
-    }
-    
-    .container_offers {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #1F3F68;
-        box-sizing: border-box;
-    }
-    
-    .firstAd {
-        width: 359px;
-        height: 480px;
-        background: #FFFFFF;
-        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .img_first-ad {
-        align-self: center;
-        padding-top: 43px;
-    }
-    
-    .secondAd {
-        width: 359px;
-        height: 480px;
-        background: #FFFFFF;
-        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;   
-    }
-    
-    .img_scd-ad {
-        align-self: center;
-        padding-top: 38px;
-    }
-    
-    .thirdAd {
-        width: 359px;
-        height: 480px;
-        background: #FFFFFF;
-        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .img_third-ad {
-        align-self: center;
-        padding-top: 43px;
-    }
-    
-    .finishProj {
-        text-align: center;
-    }
-    
-    .intro_projects {
-        margin: 0 auto;
-    }
-    
-    .title_projects {
-        padding: 64px 0px 32px;
-        font-weight: 300;
-        font-size: 36px;
-        line-height: 46px;
-        letter-spacing: 0.05em;
-        color: #000000;
-        letter-spacing: 0.05em;
-    }
-    
-    .text_projects {
-        width: 750px;
-        align-self: center;
-        margin-bottom: 64px;
-        color: #222222;
-        
-    }
-    
-    .project_img {
-        width: 100%;
-    }
-    
-    .smrt-home {
-        font-size: 32px;
-        line-height: 46px;
-        text-align: right;
-        letter-spacing: 0.05em;
-        position: absolute;
-        top: 64px;
-        right: 64px;
-        color: #FFFFFF;
-        
-    }
-    
-    .sparklite-app {
-        font-size: 28px;
-        line-height: 46px;
-        letter-spacing: 0.05em;
-        position: absolute;
-        top: 32px;
-        left: 32px;
-        color: #FFFFFF;
-    }
-    
-    .car-app {
-        font-size: 28px;
-        line-height: 46px;
-        letter-spacing: 0.05em;
-        position: absolute;
-        top: 32px;
-        left: 32px;
-        color: #FFFFFF;
-    }
-    
-    .project_item {
-        position: relative;
-        flex-grow: 1;
-    }
-    
-    .project_parent {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 32px;
-    }
-    
-    .project_item_margin {
-        margin-right: 32px;
-    }
-    
-    .footer {
-        background-color: #316099; 
-        color: #FFFFFF;
-        margin-top: 112px;
-        position: relative;
-    }
-    .top_footer {
-       
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        color: #FFFFFF;
-        position: relative;
-    }
-    
-    .title_hire { 
-        margin-top: 91px;
-        font-size: 36px;
-        line-height: 46px;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        color: #FFFFFF
-    }
-    
-    .textFooter {
-        margin: 32px 0px 96px;
-        opacity: 0.6; 
-        color:  #ffffff;
-    }
-    
-    .button_footer {
-        position: absolute;
-        top: 165px;
-        right: 0px;
-    }
-    
-    .btn_footer {
-        text-decoration: none;
-        padding: 15px 80px;
-        color: #FFFFFF;
-        background: #5A98D0;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.04em;
-    }
-    
-    .address {
-        
-        position: relative;
-        padding-left: 38px;
-    }
+            background-image: url(img/top_img.png);
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: 20em;
+            margin-right: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 80px;
+        }
 
-    .address::before {
-        content: "A. ";
-        word-spacing: 19px;
-        font-weight: 500;
-        position: absolute;
-        left: 0px;
+        .container_navbar {
+            padding: 55px 32px 0px;
+        }
+
+        .mainTitle {
+            height: 148px;
+            font-size: 64px;
+            line-height: 74px;
+            text-align: left;
+            padding: 120px 32px 0px;
+            width: 70%;
+        }
+
+        .text_automation {
+            height: 82px;
+            line-height: 26px;
+            text-align: left;
+            padding: 32px 32px 0px;
+            width: 55%;
+        }
+
+        .button_top {
+            padding: 15px 50px;
+            align-self: flex-start;
+            margin: 72px 32px 41px;
+            font-size: 16px;
+        }
+
+        .title_offers {
+            font-size: 36px;
+            line-height: 46px;
+            margin: 64px 32px;
+            height: 90px;
+            letter-spacing: 00.05em;
+        }
+
+        .title_projects {
+            font-size: 36px;
+            line-height: 46px;
+            margin: 127px 32px 32px;
+            letter-spacing: 0.05em;
+        }
+
+        .text_projects {
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0px 124px 64px;
+            height: 78px;
+            width: 70%;
+        }
+
+        .smrt-home {
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            left: 285px;
+            top: 2915px;
+        }
+
+        .sparklite-app {
+            font-size: 28px;
+            line-height: 46px;
+            color: #FFFFFF;
+            left: 22px;
+            top: 3217px;
+            letter-spacing: 0.05em;
+        }
+
+        .car-app {
+            font-size: 28px;
+            line-height: 46px;
+            color: #FFFFFF;
+            left: 427px;
+            top: 3217px;
+        }
+
+        .project_parent {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        }
+
+        .project_item_margin {
+            margin-right: 32px;
+        }
+
+        .top_footer {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hire {
+            width: 60%;
+        }
+
+        .title_hire {
+            font-size: 36px;
+            line-height: 46px;
+            text-align: left;
+            padding: 47px 0px 0px 124px;
+        }
+
+        .textFooter {
+            text-align: left;
+            padding: 32px 0px 64px 124px;
+        }
+
+        .button_footer {
+            align-self: center;
+            margin: 40px 51px;
+        }
+
+        .container_info {
+            padding: 64px 124px 0px;
+        }
+
+        .address {
+            padding: 0px 0px 25px 63px;
+        }
+
+        .address::before {
+            content: "A. ";
+            padding-left: 0px;
+        }
+
+        .tel {
+            padding-bottom: 25px;
+        }
+
+        .tel::before {
+            content: "T. ";
+            word-spacing: 46px;
+            padding-left: 0px;
+        }
+
+        .mail::before {
+            content: "E. ";
+            word-spacing: 47px;
+            padding-left: 0px;
+        }
+
+        .legalRights {
+            text-align: left;
+            padding: 64px 125px;
+        }
     }
-    
-    .tel::before {
-        content: "T. ";
-        word-spacing: 19px;
-        font-weight: 500;
-    }
-    
-    .mail::before {
-        content: "E ";
-        word-spacing: 19px;
-        font-weight: 500;
-    }
-    
-    .legalRights {
-        color: #ffffff;
-        padding: 0px 0px 50px;
-        opacity: 0.4;
-    }
-    
-    .container_info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 64px 0px;
-        color: #FFFFFF;
-    }
-    
-    hr {
-        border: 1px solid #FFFFFF;
-        opacity: 0.4;
-    }
+    @media (min-width: 1024px) and (max-width: 2560px ) {
+
+        .container {
+                max-width: 1140px;
+                margin: 0 auto;
+        
+        }
+        
+        h3 {
+            font-size: 36px;
+        
+        }
+        
+        h4 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+        }
+        
+        .top_page {
+            display: flex;
+            flex-direction: column; 
+            height: 100%;
+            background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+        }
+        
+        .container_navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 42px 113px 0px;
+        }
+        
+        .automation {
+            display: flex;
+            flex-direction: column;
+            background-image: url(img/top_img.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            flex-grow: 1;
+            height: 100%;   
+        }
+        
+        .mainTitle {
+            width: 50%;
+            height: 148px;
+            font-weight: 300;
+            font-size: 64px;
+            line-height: 74px;
+            color: #1F3F68;
+            letter-spacing: 0.04em;
+            padding: 115px 114px 0px;
+            text-align: left;
+        }
+        
+        .text_automation {
+            width: 40%;
+            padding: 32px 114px 71px;
+            opacity: 0.6;
+            text-align: left;
+        }
+        
+        .button_top {
+            background: #5A98D0;
+            box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+            border-radius: 10px;
+            text-decoration: none;
+            padding: 15px 50px;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            align-self: flex-start;
+            margin: 0px 114px 190px;
+        }
+        
+        .title_offers {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 46px;
+            letter-spacing: 0.05em;
+            margin: 64px 0px;
+            text-align: center;
+        }
+        
+        .title_ad {
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            font-weight: 400;
+            padding: 50px 32px 0px;
+        }
+        
+        .text_ad {
+            padding: 15px 32px 28px;
+            opacity: 0.6;
+        
+        }
+        
+        .ad_link {
+            position: relative;
+            line-height: 27px;
+            font-size: 14px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            color: #5A98D0;
+            text-decoration: none;
+            padding-left: 32px;
+        }
+        
+        .ad_link::after {
+            content: url(img/arrow_ad.svg);
+            position: absolute;
+            padding: 4px 23px;
+        }
+        
+        .container_offers {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #1F3F68;
+            box-sizing: border-box;
+        }
+        
+        .firstAd {
+            width: 359px;
+            height: 480px;
+            background: #FFFFFF;
+            box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img_first-ad {
+            align-self: center;
+            padding-top: 43px;
+        }
+        
+        .secondAd {
+            width: 359px;
+            height: 480px;
+            background: #FFFFFF;
+            box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;   
+        }
+        
+        .img_scd-ad {
+            align-self: center;
+            padding-top: 38px;
+        }
+        
+        .thirdAd {
+            width: 359px;
+            height: 480px;
+            background: #FFFFFF;
+            box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 32px;
+        }
+        
+        .img_third-ad {
+            align-self: center;
+            padding-top: 43px;
+        }
+        
+        .finishProj {
+            text-align: center;
+        }
+        
+        .intro_projects {
+            margin: 0 auto;
+        }
+        
+        .title_projects {
+            padding: 64px 0px 32px;
+            font-size: 36px;
+            line-height: 46px;
+            letter-spacing: 0.05em;
+            margin: 0;
+        }
+        
+        .text_projects {
+            width: 46em;
+            margin-bottom: 64px;
+            padding-left: 190px;
+        }
+        
+        .project_img {
+            width: 100%;
+        }
+        
+        .smrt-home {
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            position: absolute;
+            top: 64px;
+            right: 64px;
+            color: #FFFFFF;
+            
+        }
+        
+        .sparklite-app {
+            font-size: 28px;
+            line-height: 46px;
+            letter-spacing: 0.05em;
+            position: absolute;
+            top: 32px;
+            left: 32px;
+            color: #FFFFFF;
+        }
+        
+        .car-app {
+            font-size: 28px;
+            line-height: 46px;
+            letter-spacing: 0.05em;
+            position: absolute;
+            top: 32px;
+            left: 32px;
+            color: #FFFFFF;
+        }
+        
+        .project_item {
+            position: relative;
+            flex-grow: 1;
+        }
+        
+        .project_parent {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 32px;
+            
+        }
+        
+        .project_item_margin {
+            margin: 0px 32px 0px 0px;
+        }
+        
+        .footer {
+            background-color: #316099; 
+            color: #FFFFFF;
+            margin-top: 112px;
+            position: relative;
+        }
+        .top_footer {
+        
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            color: #FFFFFF;
+            position: relative;
+        }
+        
+        .title_hire { 
+            margin-top: 91px;
+            font-size: 36px;
+            line-height: 46px;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            text-align: left;
+            padding: 0;
+        }
+        
+        .textFooter {
+            margin: 32px 0px 96px;
+            opacity: 0.6; 
+            color:  #ffffff;
+            text-align: left;
+            width: 31.2em;
+            padding: 0;
+        }
+        
+        .button_footer {
+            position: absolute;
+            top: 165px;
+            right: 0px;
+        }
+        
+        .btn_footer {
+            text-decoration: none;
+            padding: 15px 80px;
+            color: #FFFFFF;
+            background: #5A98D0;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.04em;
+        }
+        
+        .address {
+            
+            position: relative;
+            padding-left: 38px;
+        }
+
+        .address::before {
+            content: "A. ";
+            word-spacing: 19px;
+            font-weight: 500;
+            position: absolute;
+            left: 0px;
+            padding: 0;
+        }
+        
+        .tel::before {
+            content: "T. ";
+            word-spacing: 19px;
+            font-weight: 500;
+        }
+        
+        .mail::before {
+            content: "E. ";
+            word-spacing: 19px;
+            font-weight: 500;
+        }
+        
+        .legalRights {
+            color: #ffffff;
+            padding: 0px 0px 50px;
+            opacity: 0.4;
+            text-align: left;
+        }
+        
+        .container_info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 64px 0px;
+            color: #FFFFFF;
+        }
+        
+        hr {
+            border: 1px solid #FFFFFF;
+            opacity: 0.4;
+        }
+}
