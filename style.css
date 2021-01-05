@@ -532,7 +532,7 @@ hr {
         .container_navbar {
             display: flex;
             justify-content: space-between;
-            padding: 42px 113px 0px;
+            padding: 42px 0px 0px;
         }
         
         .automation {
@@ -553,13 +553,13 @@ hr {
             line-height: 74px;
             color: #1F3F68;
             letter-spacing: 0.04em;
-            padding: 115px 114px 0px;
+            padding: 115px 0px 0px;
             text-align: left;
         }
         
         .text_automation {
             width: 40%;
-            padding: 32px 114px 71px;
+            padding: 32px 0px 71px;
             opacity: 0.6;
             text-align: left;
         }
@@ -575,7 +575,7 @@ hr {
             letter-spacing: 0.04em;
             color: #FFFFFF;
             align-self: flex-start;
-            margin: 0px 114px 190px;
+            margin: 0px 0px 190px;
         }
         
         .title_offers {
