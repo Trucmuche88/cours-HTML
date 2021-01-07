@@ -5,10 +5,19 @@
 
 body {
     font-family: roboto, sans-serif;
+    
     }
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
 }
 
 .top_page {
@@ -231,7 +240,7 @@ p.text_ad {
 .footer {
     background-color: #316099; 
     color: #FFFFFF;
-    margin-top: 64px;
+    margin-top: 5px;
     position: relative;
 }
 
@@ -249,8 +258,7 @@ p.text_ad {
     text-align: center;
     color: #FFFFFF;
     font-weight: 400;
-    width: 343px;
-    padding-top: 18px;
+    padding: 18px 40px;
 }
 
 .textFooter {
@@ -335,6 +343,173 @@ hr {
     opacity: 0.4;
 }
 
+.contactBanner {
+    background-image: url(img/Mask-Group.png);
+    margin-bottom: 50px;
+}
+
+.title_contactBanner {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.img_contact {
+    padding-bottom: 24px;
+}
+
+.text_contactBanner {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 32px 5px;
+}
+
+.contactInfo, .container_form {
+    padding-left: 40px;
+    width: 300px;
+    padding-left: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adress, .phone_number, .online_service{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.adress {
+    padding-bottom: 32px;
+}
+
+.number_1 {
+    padding-bottom: 16px;
+}
+
+.number_1::before {
+    content: url(img/ic_phone_24px.png);
+    position: relative;
+    top: 7px;
+    margin-right: 19px;
+}
+
+.number_2 {
+    margin-bottom: 32px;
+}
+
+.number_2::before {
+    content: url(img/ic_phone_24px.png);
+    position: relative;
+    top: 7px;
+    margin-right: 19px;
+}
+
+.site_contact::before {
+    content: url(img/ic_language_24px.png);
+    position: relative;
+    top: 7px;
+    margin-right: 19px;
+}
+
+.mail_contact::before {
+    content: url(img/ic_email_24px.png);
+    position: relative;
+    top: 7px;
+    margin-right: 19px;
+}
+.online_service {
+    opacity: initial;
+    letter-spacing: 0.05em;
+}
+.container_form {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    height: 514px;
+    margin: 32px 0px;
+}
+
+.title_form {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    padding: 36px 0px 31px;
+    color: #1F3F68;
+}
+
+form {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+input.form {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin-bottom: 21px;
+}
+
+textarea.form {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 28px;
+    
+}
+
+.buttonSubmit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 10px 106px;
+    color: #ffff;
+    border: hidden;
+    margin: 18px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_adress, .title_phone, .title_online-service {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+    width: 300px;
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
@@ -438,6 +613,10 @@ hr {
             margin-right: 32px;
         }
 
+        .footer {
+            margin-top: 40px;
+        }
+
         .top_footer {
             display: flex;
             flex-direction: row;
@@ -496,6 +675,14 @@ hr {
         .legalRights {
             text-align: left;
             padding: 64px 125px;
+        }
+
+        .container_navbar {
+            padding: 18px 32px 20px;
+        }
+
+        .text_contactBanner {
+            padding: 32px 190px;
         }
     }
     @media (min-width: 1024px) and (max-width: 2560px ) {
@@ -844,5 +1031,20 @@ hr {
         hr {
             border: 1px solid #FFFFFF;
             opacity: 0.4;
+        }
+
+        .contactBanner {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container_contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .top_contact {
+            align-self: flex-start;
         }
 }
